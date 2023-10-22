@@ -1,0 +1,21 @@
+
+body{
+    margin: 2%;  
+    font-family: 'Sans', serif;
+  }
+  
+  .card img{
+  width: 500px;
+  height: 550px; 
+  
+  }
+  .card{
+  border: 3px;
+  }
+  
+  @media (max-width: 768px) { 
+      .card{
+      align-items: center;
+      text-align: center;
+      }
+  } 
